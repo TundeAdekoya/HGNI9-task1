@@ -2,12 +2,16 @@ import React from 'react'
 import '../Css/Main.css'
 import profile_image from '../Assets/png/profile_image.png'
 import share_web from '../Assets/svg/share.svg'
+import share_mobile from '../Assets/svg/share mobile.svg'
 
 const Main = () => {
   return (
     <div>
-        <div id="main_content">     
-            <div id='profile_section'>
+        <div id="main_content">  
+
+           {/* PROFILE SECTION */}
+
+            <section id='profile_section'>
                 <div id="profile_section_static">
                     <div>
                         <img src={profile_image} alt="" id="profile_img" />
@@ -19,8 +23,18 @@ const Main = () => {
                     <p>Adekoya Tunde</p>
                 </div> */}
                 </div>
-                <img src={share_web} alt="" id='share_link' />
-            </div>
+                <div className="profile_section_content">
+                    <div className="share_web">
+                        <img src={share_web} alt="" id='share_link' />
+                    </div>
+                    <div className="share_mobile">
+                        <img src={share_mobile} alt="" id='share_link_mobile' />
+                    </div>
+                </div>
+            </section>
+
+            {/* LINK SECTION */}
+
             <section id="link_section">
                 <div className="link_section_content">
                     <a href="https://training.zuri.team/" id='btn__zuri'>
