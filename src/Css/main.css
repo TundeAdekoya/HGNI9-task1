@@ -26,6 +26,7 @@
 
 .profile_section_content .share_web #share_link{
     width: 30px;
+    cursor: pointer;
 }
 
 #profile_section .profile_section_content #share_link_mobile{
@@ -60,7 +61,11 @@
    background-color: #EAECF0;
    padding: 12px 16px;
    margin-bottom: 20px;
-   border-radius: 15px;
+   border-radius: 10px;
+}
+
+#link_section .links:hover{
+    background-color: #D0D5DD;
 }
 
 /* MOBILE */
@@ -68,6 +73,10 @@
 @media(max-width:414px) {
 
     /* PROFILE SECTION */
+
+    #profile_section{
+        margin-bottom: 120px;
+    }
 
     #profile_section .profile_section_content{
         margin-left: 80%;
