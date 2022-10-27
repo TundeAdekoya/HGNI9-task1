@@ -1,0 +1,54 @@
+/* PROFILE SECTION */
+
+#profile_section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+#profile_section #profile_section_static{
+    position: absolute;
+}
+
+#profile_section #profile_img{
+    width: 50px;
+}
+
+#profile_section #twitter p{
+    font-weight: 600;
+}
+
+#profile_section #share_link{
+    margin-left: 30%;
+}
+
+/* LINK SECTION */
+
+#link_section{
+    margin: 100px 0 100px 0;
+}
+#link_section .link_section_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#link_section a{
+    width: 70%;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#link_section a:hover{
+    width: 69%;
+}
+
+#link_section .links{
+   background-color: #EAECF0;
+   padding: 12px 16px;
+   margin-bottom: 20px;
+   border-radius: 15px;
+}
